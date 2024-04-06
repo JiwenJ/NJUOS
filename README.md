@@ -1,11 +1,11 @@
 
 # <div align="center">NJUOS</div>
 
-> Motiation: revisit njuos lab with wsl2 and organise related materials
+> Motivation: revisit njuos lab with wsl2 and organise related materials
 
 
 <details open>
-<summary>Prerequiste</summary>
+<summary>Prerequisite</summary>
 
 
 install wsl2 and install ubuntu18.04
@@ -82,7 +82,7 @@ reference:
 1. https://superuser.com/questions/1580610/how-to-run-gui-apps-with-windows-subsystem-for-linux
 2. https://stackoverflow.com/questions/71408331/no-available-video-device-error-with-sdl2
 
-After all the Prerequiste you can test it:
+After all the prerequisite you can test it:
 ```
 cd lab1
 make clean
