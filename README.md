@@ -1,11 +1,11 @@
 
-# <div align="center">NJUOS</div>
+# <div align="center">NJUOS-2022</div>
 
 > Motivation: revisit njuos lab with wsl2 and organise related materials
 
 
-<details open>
-<summary>Prerequisite</summary>
+<details>
+<summary>Prerequisite 准备实验环境</summary>
 
 
 install wsl2 and install ubuntu18.04
@@ -88,14 +88,43 @@ cd lab1
 make clean
 make qemu
 ```
-If you see the following result, foe now you have all the necessity for the following labs.
-<div align="left">
-  <img width="70%" src="./utils/imgs/lab0_1.jpg">
+</details>
+
+<details>
+<summary>Lab1 系统引导 实现简单的引导程序</summary>
+
+
+
+<div align="center">
+  <img width="70%" src="./utils/imgs/lab1_0.jpg">
 </div>
-
-
 </details>
 
-<details open>
-<summary>Lab1</summary>
+<details>
+<summary>Lab2 系统调用 实现简单的系统调用
+</summary>
+<div align="center">
+  <img width="70%" src="./utils/imgs/lab2_0.jpg">
+</div>
 </details>
+<details>
+<summary>Lab3 进程切换 实现简单的任务调度
+</summary>
+<div align="center">
+  <img width="40%" src="./utils/imgs/lab3_0.jpg">
+  <img width="40%" src="./utils/imgs/lab3_1.jpg">
+</div>
+</details>
+<details>
+<summary>Lab4 并发控制 实现简单的同步机制</summary>
+<div align="center">
+  <img width="70%" src="./utils/imgs/lab4_0.jpg">
+</div>
+</details>
+<details>
+<summary>Lab5 ⽂件系统 实现简单的文件系统</summary>
+<div align="center">
+  <img width="70%" src="./utils/imgs/lab5_0.jpg">
+</div>
+</details>
+

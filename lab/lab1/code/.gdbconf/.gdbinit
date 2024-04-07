@@ -20,7 +20,7 @@ define hook-stop
 end
 
 set architecture i8086
-set tdesc filename ./.gdbconf/target.xml
+#set tdesc filename ./.gdbconf/target.xml
 echo + target remote localhost:1234\n
 target remote localhost:1234
 

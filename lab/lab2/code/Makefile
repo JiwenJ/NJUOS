@@ -13,7 +13,8 @@ play: os.img
 
 debug: os.img
 	$(QEMU) -serial stdio -s -S os.img
-
+gdb:
+	gdb -n -x ./.gdbconf/.gdbinit
 clean:
 	@cd bootloader; make clean
 	@cd kernel; make clean

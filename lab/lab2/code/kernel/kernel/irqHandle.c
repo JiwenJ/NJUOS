@@ -204,7 +204,7 @@ void syscallGetChar(struct TrapFrame *tf){
 void syscallGetStr(struct TrapFrame *tf){
 	char* str=(char*)(tf->edx);//str pointer
 	int size=(int)(tf->ebx);//str size
-	int t = 10;	
+	//int t = 10;	
 	bufferHead=0;
 	bufferTail=0;
 	for(int j=0;j<MAX_KEYBUFFER_SIZE;j++)keyBuffer[j]=0;//init
